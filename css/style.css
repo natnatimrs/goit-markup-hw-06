@@ -658,6 +658,7 @@ body {
   align-items: center;
   cursor: pointer;
   transition: background-color 250ms var(--cub-baz);
+  
 }
 .modal-close-btn:hover,
 .modal-close-btn:focus {
@@ -677,14 +678,14 @@ body {
 .modal-form {
   display: flex;
   flex-direction: column;
+  padding-top: 42px;
 }
 .modal-propose {
-  font-family: 'Roboto';
+    font-family: 'Roboto';
  font-weight: 500;
   text-align: center;
-  margin-bottom: 20px;
-  color: var(--dark);
-color: var(--navy-blue);
+  margin-bottom: 16px;
+  color: var(--navy-blue);
 }
 
 .modal-form-field {
@@ -698,7 +699,6 @@ line-height: 1.17;
 letter-spacing: 0.04em;
 margin-bottom: 4px;
 color: var(--light-slate);
-
 }
 .modal-input-wrap {
   display: block;
@@ -749,9 +749,8 @@ line-height: 1,17;
 letter-spacing: 0.04em;
 color: rgba(46, 47, 66, 0.4);
 }
-.modal-form-chek {
-}
-.modal-form-chek-desc {
+
+.chek-text {
   font-size: 12px;
   line-height: 1.33;
   letter-spacing: 0.04em;
@@ -760,26 +759,36 @@ color: rgba(46, 47, 66, 0.4);
   align-items: center;
   position: relative;
 }
-
-.modal-form-chek-desc::before{
-  content:'';
-  width: 18px;
-  height: 18px;
-  display: block;
-  border: 1px solid rgba(46, 47, 66, 0.4);
-cursor: pointer;
-border-radius: 4px;
+.chek-text span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  border: 1.25px solid var(--light-slate);
+  border-radius: 2px;
+  margin-right: 8px;
+  transition: background-color 250ms var(--cub-baz), border 250ms var(--cub-baz);
+  fill: transparent;
 }
-
-.chek-icon {
-  
-}
-.modal-form-chek:checked + .modal-form-chek-desc::before {
-  background-color:var(--okean);
-  border: none;
+.modal-chek:checked + .chek-text span {
+  background-color: var(--iris);
+  border: 1px solid var(--light-slate);
   fill: var(--cloud);
-
+}
+.chek-icon {
+}
+.policy-link {
+  color: var(--iris);
+  text-decoration: underline;
+  cursor: pointer;
 }
 .modal-form-submit {
+    color: var(--white);
+  background-color: var(--iris);
+  padding: 16px 32px;
+  width: 169px;
+  height: 56px;
+  margin: 24px auto 0;
 }
 
