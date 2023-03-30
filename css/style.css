@@ -191,7 +191,7 @@ body {
   line-height: 1.5;
   color: var(--slate);
   transition: color 250ms var(--cub-baz);
-  }
+}
 
 .contact-link:is(:hover, :focus) {
   color: var(--okean);
@@ -482,7 +482,6 @@ body {
 .benefits-link {
   display: block;
   transition: box-shadow 250ms var(--cub-baz);
-
 }
 .benefits-link:is(:hover, :focus) {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
@@ -502,7 +501,7 @@ body {
   transform: translate(0, 100%);
   transition: transform 250ms var(--cub-baz);
   font-family: "Roboto";
-    font-size: 16px;
+  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--cloud);
@@ -602,20 +601,19 @@ body {
   height: 24px;
 }
 .footer-subscribe {
-
 }
 .footer-subscribe-title {
-font-weight: 500;
-font-size: 16px;
-line-height: 1,5;
-letter-spacing: 0.02em;
-color: var(--white);
-margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 5;
+  letter-spacing: 0.02em;
+  color: var(--white);
+  margin-bottom: 16px;
   margin-left: 80px;
 }
 
 .footer-form {
- display: flex;
+  display: flex;
   margin-left: 80px;
   width: 453px;
 }
@@ -656,7 +654,7 @@ margin-bottom: 16px;
   transition: background-color 250ms var(--cub-baz);
 }
 .footer-btn-icon {
-    fill: currentColor;
+  fill: currentColor;
 }
 
 /*=============/FOOTER=============*/
@@ -715,7 +713,6 @@ margin-bottom: 16px;
   align-items: center;
   cursor: pointer;
   transition: background-color 250ms var(--cub-baz);
-  
 }
 .modal-close-btn:hover,
 .modal-close-btn:focus {
@@ -738,8 +735,8 @@ margin-bottom: 16px;
   padding-top: 42px;
 }
 .modal-propose {
-    font-family: 'Roboto';
- font-weight: 500;
+  font-family: "Roboto";
+  font-weight: 500;
   text-align: center;
   margin-bottom: 16px;
   color: var(--navy-blue);
@@ -749,13 +746,13 @@ margin-bottom: 16px;
   margin-bottom: 8px;
 }
 .modal-form-input-desc {
-font-family: 'Roboto';
-font-weight: 400;
-font-size: 12px;
-line-height: 1.17;
-letter-spacing: 0.04em;
-margin-bottom: 4px;
-color: var(--light-slate);
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  margin-bottom: 4px;
+  color: var(--light-slate);
 }
 .modal-input-wrap {
   display: block;
@@ -767,19 +764,19 @@ color: var(--light-slate);
   height: 40px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
-padding: 8px 16px 8px 38px;
-transition: border-color 250ms var(--cub-baz);
+  padding: 8px 16px 8px 38px;
+  transition: border-color 250ms var(--cub-baz);
 }
 .modal-form-input:focus {
   outline: none;
-  border-color:var(--iris);
+  border-color: var(--iris);
 }
-.modal-input-icon{
+.modal-input-icon {
   position: absolute;
-top: 50%;
-left: 19px;
-transform: translateY(-50%);  
-transition: fill 250ms var(--cub-baz);
+  top: 50%;
+  left: 19px;
+  transform: translateY(-50%);
+  transition: fill 250ms var(--cub-baz);
 }
 
 .modal-form-input:focus + .modal-input-icon {
@@ -794,17 +791,17 @@ transition: fill 250ms var(--cub-baz);
   transition: border-color 250ms var(--cub-baz);
   border-radius: 4px;
 }
-.modal-form-message:focus{
+.modal-form-message:focus {
   outline: none;
   border-color: var(--iris);
 }
 .modal-form-message::placeholder {
-  font-family: 'Roboto';
-font-weight: 400;
-font-size: 12px;
-line-height: 1,17;
-letter-spacing: 0.04em;
-color: rgba(46, 47, 66, 0.4);
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1, 17;
+  letter-spacing: 0.04em;
+  color: rgba(46, 47, 66, 0.4);
 }
 
 .chek-text {
@@ -841,11 +838,10 @@ color: rgba(46, 47, 66, 0.4);
   cursor: pointer;
 }
 .modal-form-submit {
-    color: var(--white);
+  color: var(--white);
   background-color: var(--iris);
   padding: 16px 32px;
   width: 169px;
   height: 56px;
   margin: 24px auto 0;
 }
-
