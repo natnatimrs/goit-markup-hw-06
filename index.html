@@ -401,11 +401,29 @@
             </li>
           </ul>
         </div>
+        <div class="footer-subscribe">
+          <h3 class="footer-subscribe-title">Subscribe</h3>
+          <form class="footer-form">
+            <label>
+              <input
+                type="email"
+                class="footer-form-email"
+                placeholder="E-mail"
+                name="subscribe-email"
+                required
+            /></label>
+            <button type="submit" class="footer-form-btn btn">
+              Subscribe
+              <svg class="footer-btn-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-plane"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
-      
     </footer>
     <!-- /FOOTER -->
-        <div class="backdrop is-hidden" data-modal>
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="modal-close-btn" data-modal-close>
           <svg class="modal-close-btn-icon">
@@ -413,9 +431,9 @@
           </svg>
         </button>
         <form class="modal-form">
-           <p class="modal-propose">
-          Leave your contacts and we will call you back
-        </p>
+          <p class="modal-propose">
+            Leave your contacts and we will call you back
+          </p>
           <label class="modal-form-field">
             <span class="modal-form-input-desc"> Name </span>
             <span class="modal-input-wrap">
